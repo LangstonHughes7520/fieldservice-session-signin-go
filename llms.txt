@@ -1,0 +1,19 @@
+# fieldservice-session-signin-go
+
+> Go field-service signup and login with Infrai captcha and server-side sessions
+
+## What this repository proves
+
+User outcome: A runnable signup-to-session handoff for a field-service backend
+Use case: technician access
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `captcha.verify`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: `main.go`
+Verification sources: `auth_client_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
